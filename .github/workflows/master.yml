@@ -19,3 +19,5 @@ jobs:
       run: dotnet build --configuration Release
       - name: Test
       run: dotnet test
+      - name: Create Package
+      run: dotnet pack --configuration Release
